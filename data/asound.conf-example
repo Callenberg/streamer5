@@ -1,0 +1,33 @@
+#reset some defaults because of any file permissions...
+    defaults.bluealsa.delay 10000	                #this is actual set, frame delay
+    defaults.bluealsa.service org.bluealsa	    #already set as default
+    defaults.bluealsa.device FC:58:FA:B8:F6:14            #not really needed here
+    defaults.bluealsa.profile a2dp                #not really needed here
+    defaults.bluealsa.interface hci0	            #legacy only, not in use
+pcm.btspeaker {
+  type plug
+  slave.pcm {
+      type bluealsa
+      device 'FC:58:FA:B8:F6:14'
+      profile 'a2dp'
+  }
+  hint {
+      show on
+      description 'Bluetooth speaker, FC:58:FA:B8:F6:14'
+  }
+}
+ctl.btspeaker {
+   type bluealsa
+}
+pcm.!default {
+type plug
+slave.pcm btspeaker
+hint {
+        show on
+        description 'btspeaker'
+  }
+}
+ctl.!default {
+type bluealsa
+}
+
