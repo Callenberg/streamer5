@@ -32,6 +32,8 @@ socket.io https://socket.io/
 
 Express https://expressjs.com/
 
+(for a full list of Javascript packages and their versions look at the file package-lock.json).
+
 Usage
 ====
 
