@@ -60,4 +60,5 @@ User interface
 The user interface is used for managing the Streamer system itself (i.e. do settings and managing connections and show status of the Streamer. It is not used for manaing the actually streaming - you use your streaming apps like the Spotify app. The front end code can be found in /pages,
 
 Wi-Fi
+-----
 In order to manage all aspects of wireless networks nmcli is used. Open the file /lib/streamer-network and have a look.
