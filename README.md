@@ -4,17 +4,17 @@ Streamer Software Version 5 --- backend and frontend for a Raspberry Pi music ne
 
 This is the software that comes with the network music streamers custom built by Retro Audiophile Designs.
 
-The software makes it possible to stream music using Bluetooth, Spotify and Airplay. It connects the hardware to Bluetooth (as a sink) and it is also possible to connect to home networks with cable or Wi-Fi. It is even possible to connect a Bluetooth speaker or Bluetooth headphones (as a renderer) and in addition, it an be connected to old fashioned wired passive Hi-Fi speakers. The system and its connections are managed by a web interface.
+The software makes it possible to stream music using Bluetooth, Spotify and Airplay. It connects the hardware to Bluetooth (as a sink) and it is also possible to connect to home networks with cable or Wi-Fi. It is even possible to connect a Bluetooth speaker or Bluetooth headphones (as a renderer) and in addition, it can be connected to old fashioned wired passive Hi-Fi speakers. The system and its connections are managed by a web interface.
 
 Hardware requirements:
 =====================
 Raspberry Pi 5, 2GB or more RAM, works with Raspberry Pi 3 and Pi 4 too.
 
-A Wi-Fi dongle (two Wi-Fi circuits makes the set up easier and better signal coverage).
+A Wi-Fi dongle (two Wi-Fi circuits makes the set up easier and better signal coverage). The onoard Wi-Fi is used as a hotspot.
 
-Class D amplifier IQaudio Pi-DigiAMP+ HAT for Raspberry Pi.
+Class D amplifier Raspberry Pi-DigiAMP+ HAT for Raspberry Pi or the Raspberry DAC+  
 
-12-24V power source.
+12-24V power source for the amplifier. 
 
 Software requirements:
 =====================
