@@ -14,7 +14,7 @@ A Wi-Fi dongle (two Wi-Fi circuits makes the set up easier and better signal cov
 
 Class D amplifier Raspberry Pi-DigiAMP+ HAT for Raspberry Pi or the Raspberry DAC+  
 
-12-24V power source for the amplifier. 
+12-24V power source is required for the amplifier. 
 
 Software requirements:
 =====================
