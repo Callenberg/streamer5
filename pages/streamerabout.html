@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ************************************************************************** -->
+<!-- Copyright 2025 by Retro Audiophile Designs GNU General Public License v3.0 -->
+<!-- ************************************************************************** -->
+<head>
+  <title>About Streamer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png">
+  <meta name="apple-mobile-web-app-title" content="player">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+ <link rel="manifest" href="/site.webmanifest">
+ <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+ <meta name="application-name" content="player">
+ <meta name="msapplication-TileColor" content="#da532c">
+ <meta name="theme-color" content="#ffffff">
+  <!--Versions: Bootstrap 4.3.1; Fontawesome 5.12.0 -->
+<link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="all.min.css" type="text/css" rel="stylesheet"> <!--load all fontawesome fonts and styles -->
+
+<link href="streamer.css" type="text/css" rel="stylesheet">
+</head>
+<body class="bg">
+<!-- Container; holds playlist grid (3 columns & 2 fixed rows); -->
+<div class="container bg-darker-inner pt-2 vh-200"> <!-- vh-100 viewport height 100%-->
+<!-- Header part uses most of the stylings of the usb-list page-->
+<header>
+  <div class="row mb-1">
+    <!-- responsive column left -->
+    <div class="col-auto d-none d-sm-block col-sm-2 col-md-3 col-lg-4 my-auto">
+    </div>
+      <div class="col usblist-header-border pl-1 py-1">
+        <a  href="streamerabout.html" title="Update About Page">
+        <i class="settings-symbol fas fa-ellipsis-h fa-3x"></i>
+      </a>
+      </div>
+      <div class="col usblist-header-border text-center usblist-headline pt-2">
+        <h3><strong>About</strong></h3>
+      </div>
+      <div class="col usblist-header-border d-flex justify-content-end align-top pt-1 pr-2">
+        <button class="playback-btn" type="button" onclick="window.location.href = 'streamerabout.html';">
+          <i class="home-btn fas fa-redo fa-2x" href="streamerabout.html" title="Reload Page"></i>
+        </button>
+      </div>
+      <!-- responsive column right -->
+      <div class="col-auto d-none d-sm-block col-sm-2 col-md-3 col-lg-4 my-auto">
+      </div>
+  </div>
+</header>
+    <!-- About =======================================    -->
+    <div class="row">
+      <!-- Responsive column left -->
+      <div class="col-auto d-none d-sm-block col-sm-2 col-md-3 col-lg-4 my-auto">
+      </div>
+      <!-- Center column for connections -->
+      <div class="col">
+          <!-- Fixed: connection help text -->
+          <div id="connection-text" class="col settings-border bg-darkest-inner mx-0 pb-2">
+              <p class="settings-text m-0">
+                  The streamer is capable of streaming Spotify, Airplay and Bluetooth.
+                  Connect it to wireless and wired networks. In addition, Bluetooth devices can connect and stream audio.
+                  Output are analogue speakers or a Bluetooth speaker.<br>
+              </p>
+              <p class="settings-text-small m-0">
+                  <br>[Update this page to get the latest information]<br>
+              </p>
+          </div>
+          <ul id="timestamp" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="wifi-signal" class="list-group no-bullet mb-2">
+          </ul>
+          
+          <ul id="bluetooth-signal" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="streaming" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="amplifier" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="disk" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="ram" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="versions" class="list-group no-bullet mb-2">
+          </ul>
+          <ul id="hardware" class="list-group no-bullet mb-2">
+          </ul>
+          <!-- content injected above by streamerabout.js, never empty during run-time -->
+
+      </div>  <!-- Ends center Col element-->
+    <!-- Responsive column right -->
+    <div class="col-auto d-none d-sm-block col-sm-2 col-md-3 col-lg-4 my-auto">
+    </div>
+
+  </div>  <!-- Ends Row element-->
+  <!-- fixed bottom nav bar - this is outside of row element -->
+      <div id ="nav-bar" class="bottom-btn fixed-bottom pb-1">
+        <ol class="nav nav-justified bg-dark  ">
+          <!-- Bluetooth -->
+          <li class="nav-item border border-secondary px-2 py-1 mr-1">
+              <a class="nav-link" href="streamerbluetooth.html">
+                  <i class="usb-btn fab fa-bluetooth-b fa-2x" title="Bluetooth"></i>
+                  </a>
+          </li>
+          <!-- Back to Home Page-->
+          <li class="nav-item border border-secondary p-1 mx-1">
+              <a class="nav-link" href="streamer.html">
+                  <i class="home-btn fas fa-home fa-2x" title="Start Page"></i>
+                  </a>
+          </li>
+          <!-- Network -->
+          <li class="nav-item border border-secondary p-1 ml-1">
+            <a class="nav-link" href="streamernetwork.html">
+              <i class="usb-btn fas fa-wifi fa-2x" title="Network"></i>
+            </a>
+          </li>
+        </ol>
+      </div> <!-- ends fixed bottom nav bar -->
+ 
+
+</div>    <!-- Ends Container element-->
+
+<!-- load the Javascripts -->
+   <script type="text/javascript" src="jquery-3.3.1.slim.min.js"></script>
+   <script type="text/javascript" src="popper.min.js"></script>
+   <script src="socket.io.js"></script>
+   
+   <script type="text/javascript" src="bootstrap.min.js"></script>
+   <script type="text/javascript" src="streamerabout.js"></script>
+
+</body>
+</html>
