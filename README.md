@@ -7,6 +7,7 @@ This is the software that comes with the network music streamers custom built by
 The software makes it possible to stream music using Bluetooth, Spotify and Airplay. It connects the hardware to Bluetooth (as a sink) and it is also possible to connect to home networks with cable or Wi-Fi. It is even possible to connect a Bluetooth speaker or Bluetooth headphones (as a renderer) and in addition, it an be connected to old fashioned wired passive Hi-Fi speakers. The system and its connections are managed by a web interface.
 
 Hardware requirements:
+=====================
 Raspberry Pi 5, 2GB or more RAM, works with Raspberry Pi 3 and Pi 4 too.
 
 A Wi-Fi dongle (two Wi-Fi circuits makes the set up easier and better signal coverage).
@@ -16,6 +17,7 @@ Class D amplifier IQaudio Pi-DigiAMP+ HAT for Raspberry Pi.
 12-24V power source.
 
 Software requirements:
+=====================
 Raspberry Pi OS based on Debian Bookworm https://www.raspberrypi.com/documentation/computers/os.html
 
 librespot https://github.com/librespot-org/librespot
@@ -31,6 +33,7 @@ socket.io https://socket.io/
 Express https://expressjs.com/
 
 Usage
+====
 
 This is only a plain software depository. There is no package to install. The best usage is probably to look at the source code of the topics that interests you and maybe the code can inspire you.
 
