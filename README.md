@@ -51,7 +51,7 @@ One challenge is how to detect when Bluetooth is used to stream audio to the Str
 
 Configuration
 -------------
-Various config files can be found in /config/. However, the config files for Wi-Fi can be found in /data/.
+Various config files can be found in /config/.
 
 Streaming
 ---------
