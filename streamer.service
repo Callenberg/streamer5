@@ -1,0 +1,15 @@
+[Unit]
+Description=Streamer
+After=multi-user.target			
+#Requires=network.target
+
+[Service]
+#Type=idle				
+ExecStart=/bin/bash /streamer/streamer.sh
+
+User=root
+Restart=on-failure			
+RestartSec=60				
+
+[Install]
+WantedBy=multi-user.target
