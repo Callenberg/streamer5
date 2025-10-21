@@ -65,6 +65,6 @@ Wi-Fi
 -----
 In order to manage all aspects of wireless networks nmcli is used. Open the file /lib/streamer-network and have a look.
 
-Documents
+Documents can be found in the Licences folder
 ----------
-There is one document that is a rather detailed building recipe for the Raspberry Pi configuration and how to install Bluetooth, Librespot, Shairport-sync, Wi-Fi and hotspot, memory management, backend, minimize the image, log files, systemd services and other useful matters. Another document describes in detail the strategy and structure of the software including the Linux commands used. Might be useful - check it out.
+There is one document that is a rather detailed building recipe for the Raspberry Pi configuration and how to install Bluetooth, Librespot, Shairport-sync, Wi-Fi and hotspot, memory management, backend, minimize the image, log files, systemd services and other useful matters. Another document describes in detail the strategy and structure of the software including the Linux commands used. There is also a manual called "Get started". Might be useful - check it out.
