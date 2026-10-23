@@ -2,7 +2,7 @@
 
 Streamer Software Version 5 --- backend and frontend for a Raspberry Pi music network streamer
 
-This is the software that comes with the network music streamers custom built by Retro Audiophile Designs.
+This software was used for the network music streamers custom built by the now defunct Retro Audiophile Designs.
 
 The software makes it possible to stream music using Bluetooth, Spotify and Airplay. It connects the hardware to Bluetooth (as a sink) and it is also possible to connect to home networks with cable or Wi-Fi. It is even possible to connect a Bluetooth speaker or Bluetooth headphones (as a renderer) and in addition, it can be connected to old fashioned wired passive Hi-Fi speakers. The system and its connections are managed by a web interface.
 
