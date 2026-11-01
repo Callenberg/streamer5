@@ -59,7 +59,7 @@ One of the most frequent events is when streaming starts and stops. In order to 
 
 User interface
 --------------
-The user interface is used for managing the Streamer system itself (i.e. do settings and managing connections and show status of the Streamer itself). It is not used for manaing the actually streaming - you use your streaming apps like the Spotify app. The front end code can be found in /pages,
+The user interface is used for managing the Streamer system itself (i.e. do settings and managing connections and show status of the Streamer itself). It is not used for managing the actually streaming - you use your streaming apps like the Spotify app. The front end code can be found in /pages,
 
 Wi-Fi
 -----
